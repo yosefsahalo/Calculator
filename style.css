@@ -1,0 +1,36 @@
+ul {
+    list-style: none;
+    width: 685px;
+    padding-inline-start: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ul li {
+    float: left;
+    padding: 58px;
+    background: #3b3838;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 15px;
+    width: 50px;
+}
+
+ul li:hover {
+    background: #6a6868;
+}
+
+ul li.action {
+    color: #bd7c04;
+    font-weight: 900;
+}
+
+.calculatorScreen {
+    width: 610px;
+    height: 39px;
+    background: #7e7373;
+    color: white;
+    padding: 27px;
+    font-size: 45px;
+}
